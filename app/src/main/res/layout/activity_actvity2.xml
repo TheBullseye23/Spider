@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Actvity2">
+
+    <EditText
+        android:id="@+id/ht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="123dp"
+        android:gravity="center"
+        android:hint="Enter your height(metre)    "
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <EditText
+        android:id="@+id/wt"
+        android:layout_width="216dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/ht"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:hint="Enter your Weight(Kg)"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wt"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="61dp"
+        android:text="Calculate BMI"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+
+    <EditText
+        android:id="@+id/res"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/b2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="58dp"
+        android:gravity="center"
+        android:hint="Your BMI is "
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="525dp" />
+</RelativeLayout>
